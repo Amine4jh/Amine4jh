@@ -6,6 +6,8 @@
 
 <p align="center"><b>Amine Ajaha</b>, a passionate and driven <b>software engineering student</b> with a love for building innovative and user-friendly applications. I enjoy solving complex problems and turning ideas into reality through <b>code</b>. I'm always eager to learn <b>new technologies</b>, take on <b>challenges</b>, and improve my <b>skills</b> to develop impactful <b>software</b>. When I'm not coding, you’ll find me <b>playing football</b>.</p>
 
+---
+
 <h2>👨‍💻 My Projects:</h2>
 
 - <b>Responsive & Dynamic Product List With Cart Project (HTML, CSS & JavaScript)</b>
@@ -34,6 +36,8 @@
 
 - <b>For More Projects 👉🏼 <a href="https://github.com/Amine4jh?tab=repositories">My Repositories</a></b>
 
+---
+
 <h2>💻 Languages - Frameworks - Tools:</h2>
 
 <p>
@@ -53,6 +57,8 @@
     <img src="https://skillicons.dev/icons?i=windows,powershell,vscode,pycharm,md,ps,ai" />
   </a>
 </p>
+
+---
 
 <h2>🤳 Connect with me:</h2>
 
