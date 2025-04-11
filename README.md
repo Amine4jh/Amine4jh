@@ -8,8 +8,13 @@
 
 <h2>👨‍💻 My Projects:</h2>
 
-<!-- - <b>Responsive & Dynamic Dessert Store Project (HTML, CSS & JavaScript)</b>
-  - [Dessert Store](link) -->
+- <b>Responsive & Dynamic Product List With Cart Project (HTML, CSS & JavaScript)</b>
+
+  - [Product List With Cart Project](https://github.com/Amine4jh/product-list-with-cart)
+
+- <b>Responsive & Dynamic Tip Calculator Project (HTML, CSS & JavaScript)</b>
+
+  - [Tip Calculator App](https://github.com/Amine4jh/social-links-profile)
 
 - <b>Responsive & Dynamic FAQs Card Project (HTML, CSS & JavaScript)</b>
 
