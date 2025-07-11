@@ -42,19 +42,19 @@
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,py,mysql" />
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,nodejs,react,py,mysql,php" />
   </a>
 </p>
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=wordpress,qt,github,git" />
+    <img src="https://skillicons.dev/icons?i=wordpress,qt,github,git,vite" />
   </a>
 </p>
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=windows,powershell,vscode,pycharm,md,ps,ai" />
+    <img src="https://skillicons.dev/icons?i=windows,powershell,vscode,pycharm,md,ps,ai,figma" />
   </a>
 </p>
 
