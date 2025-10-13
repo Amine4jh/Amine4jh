@@ -10,17 +10,21 @@
 
 <h2>👨‍💻 My Projects:</h2>
 
+- <b>Responsive & Dynamic All-in-One Task Manager (React.js, Tailwind CSS)</b>
+
+  - [QuadFlow](https://github.com/Amine4jh/QuadFlow-react)
+
+- <b>Responsive & Dynamic PHP Sport Field Reservation System (PHP)</b>
+
+  - [PlayZone](https://github.com/Amine4jh/PlayZone)
+
 - <b>Responsive & Dynamic Product List With Cart Project (HTML, CSS & JavaScript)</b>
 
   - [Product List With Cart Project](https://github.com/Amine4jh/product-list-with-cart)
 
 - <b>Responsive & Dynamic Tip Calculator Project (HTML, CSS & JavaScript)</b>
 
-  - [Tip Calculator App](https://github.com/Amine4jh/social-links-profile)
-
-- <b>Responsive & Dynamic FAQs Card Project (HTML, CSS & JavaScript)</b>
-
-  - [FAQs Card Project](https://github.com/Amine4jh/FAQs-Card)
+  - [Tip Calculator App](https://github.com/Amine4jh/tip-calculator-app)
 
 - <b>Responsive Age Calculator Web Application (HTML, CSS & JavaScript)</b>
 
@@ -29,10 +33,6 @@
 - <b>Responsive & Dynamic To-Do List Web Application (HTML, CSS & JavaScript)</b>
 
   - [To-Do List Web Application](https://github.com/Amine4jh/to-do-list)
-
-- <b>Responsive Profile Card Project (HTML & CSS)</b>
-
-  - [Profile Card Project](https://github.com/Amine4jh/Profile-card)
 
 - <b>For More Projects 👉🏼 <a href="https://github.com/Amine4jh?tab=repositories">My Repositories</a></b>
 
