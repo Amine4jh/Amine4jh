@@ -93,9 +93,13 @@
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Amine4jh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Amine4jh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true) -->
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Amine4jh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+<!-- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Amine4jh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8) -->
+
+![GitHub stats](https://github-stats-card-generator.vercel.app/api/svg?username=Amine4jh&theme=github&chart=bars)
+
+![Language stats](https://github-stats-card-generator.vercel.app/api/svg?username=Amine4jh&type=languages&theme=github&chart=bars)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=Amine4jh&theme=tokyonight&hide_border=true)
 
