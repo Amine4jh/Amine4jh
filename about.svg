@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Hacked Terminal — Amine4jh</title>
+  <desc id="desc">Animated cyberpunk terminal style About Me card for a GitHub README, with a transparent background and only the terminal window visible.</desc>
+
+  <defs>
+    <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F7EA2A" stop-opacity="0.25"/>
+      <stop offset="0.25" stop-color="#F7EA2A" stop-opacity="0.95"/>
+      <stop offset="0.56" stop-color="#00F7FF" stop-opacity="0.95"/>
+      <stop offset="0.86" stop-color="#DF2D3C" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#DF2D3C" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F7EA2A" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#F7EA2A" stop-opacity="0.95"/>
+      <stop offset="0.52" stop-color="#00F7FF" stop-opacity="0.95"/>
+      <stop offset="0.82" stop-color="#DF2D3C" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#DF2D3C" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.16"/>
+    </pattern>
+
+    <clipPath id="screenClip"><rect x="24" y="62" width="952" height="334" rx="14"/></clipPath>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: Consolas, Menlo, Monaco, 'Courier New', monospace; }
+    .ui { font-family: Inter, Segoe UI, Roboto, Arial, sans-serif; }
+    .small { font-size: 12px; letter-spacing: 2px; }
+    .tiny { font-size: 11px; letter-spacing: 1.8px; }
+    .body { font-size: 17px; }
+    .cyan { fill: #00F7FF; }
+    .yellow { fill: #F7EA2A; }
+    .red { fill: #DF2D3C; }
+    .muted { fill: #9FB3C8; }
+    .white { fill: #EAF2FF; }
+    .frame { animation: flick 6s infinite; }
+    .g1 { animation: g1 4.6s infinite; }
+    .g2 { animation: g2 4.6s infinite .12s; }
+    .scan { animation: scan 5.4s linear infinite; }
+    .shine { animation: shine 3.6s linear infinite; }
+    .warn { animation: warn 4.8s infinite; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .line { opacity: 0; animation: typeIn 12s infinite; }
+    .l1 { animation-delay: .4s; }
+    .l2 { animation-delay: 1.3s; }
+    .l3 { animation-delay: 2.2s; }
+    .l4 { animation-delay: 3.1s; }
+    .l5 { animation-delay: 4.0s; }
+    .l6 { animation-delay: 4.9s; }
+    .l7 { animation-delay: 5.8s; }
+    .l8 { animation-delay: 6.7s; }
+    .l9 { animation-delay: 7.6s; }
+    .l10 { animation-delay: 8.5s; }
+    .l11 { animation-delay: 9.4s; }
+    .trailA { animation: driftA 3.8s ease-in-out infinite; }
+    .trailB { animation: driftB 4.2s ease-in-out infinite; }
+
+    @keyframes g1 {
+      0%,86%,100% { transform: translate(0,0); }
+      88% { transform: translate(-4px,1px); }
+      91% { transform: translate(4px,-1px); }
+      94% { transform: translate(-2px,0); }
+    }
+    @keyframes g2 {
+      0%,86%,100% { transform: translate(0,0); }
+      88% { transform: translate(4px,-1px); }
+      91% { transform: translate(-4px,1px); }
+      94% { transform: translate(2px,0); }
+    }
+    @keyframes scan {
+      from { transform: translateY(-110px); }
+      to { transform: translateY(420px); }
+    }
+    @keyframes shine {
+      from { transform: translateX(-200px); }
+      to { transform: translateX(1020px); }
+    }
+    @keyframes warn {
+      0%,100% { opacity: .18; }
+      48% { opacity: .18; }
+      50% { opacity: .6; }
+      52% { opacity: .18; }
+      73% { opacity: .18; }
+      74% { opacity: .42; }
+      76% { opacity: .18; }
+    }
+    @keyframes flick {
+      0%,100% { opacity: .98; }
+      21% { opacity: 1; }
+      22% { opacity: .92; }
+      23% { opacity: 1; }
+      61% { opacity: 1; }
+      62% { opacity: .76; }
+      63% { opacity: 1; }
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes typeIn {
+      0% { opacity: 0; }
+      2% { opacity: 1; }
+      78% { opacity: 1; }
+      100% { opacity: 1; }
+    }
+    @keyframes driftA {
+      0%,100% { transform: translateX(0); opacity: .28; }
+      50% { transform: translateX(12px); opacity: .62; }
+    }
+    @keyframes driftB {
+      0%,100% { transform: translateX(0); opacity: .24; }
+      50% { transform: translateX(-13px); opacity: .56; }
+    }
+  </style>
+
+  <g class="frame" filter="url(#shadow)">
+    <!-- terminal window only -->
+    <rect x="24" y="24" width="952" height="372" rx="16" fill="#0B111A" stroke="url(#frameGrad)" stroke-width="2"/>
+
+    <!-- top bar -->
+    <rect x="24" y="24" width="952" height="38" rx="16" fill="#0E1622"/>
+    <rect x="24" y="46" width="952" height="16" fill="#0E1622"/>
+    <circle cx="48" cy="43" r="6" fill="#DF2D3C"/>
+    <circle cx="68" cy="43" r="6" fill="#F7EA2A"/>
+    <circle cx="88" cy="43" r="6" fill="#00F7FF"/>
+    <text x="500" y="47" text-anchor="middle" class="ui small muted">about.sys</text>
+
+    <!-- body border accents -->
+    <path d="M36 84V72h22M942 72h22v12M36 374v12h22M942 386h22v-12" fill="none" stroke="#F7EA2A" stroke-width="2" opacity="0.58"/>
+
+    <!-- internal screen effects -->
+    <g clip-path="url(#screenClip)">
+      <rect class="shine" x="0" y="68" width="170" height="2.5" fill="url(#shine)" opacity="0.82"/>
+      <rect class="scan" x="24" y="0" width="952" height="92" fill="url(#shine)" opacity="0.09"/>
+      <rect x="24" y="62" width="952" height="334" fill="url(#scanlines)" opacity="0.38"/>
+    </g>
+
+    <!-- floating sandevistan trails -->
+    <g class="trailA" opacity="0.75">
+      <path d="M822 88h64" stroke="#F7EA2A" stroke-width="3" stroke-linecap="round"/>
+      <path d="M842 100h44" stroke="#00F7FF" stroke-width="2" stroke-linecap="round"/>
+      <path d="M836 112h30" stroke="#DF2D3C" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g class="trailB" opacity="0.68">
+      <path d="M72 334h52" stroke="#00F7FF" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M86 346h38" stroke="#F7EA2A" stroke-width="2" stroke-linecap="round"/>
+      <path d="M68 358h46" stroke="#DF2D3C" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- terminal text -->
+    <g transform="translate(48 96)">
+      <text x="0" y="0" class="cyan body line l1">&gt; boot --profile amine4jh</text>
+      <text x="0" y="28" class="yellow body line l2">[ OK ] neural interface loaded</text>
+      <text x="0" y="56" class="body line l3"><tspan class="red">[SYS]</tspan><tspan class="white"> identity:</tspan> <tspan class="yellow">Amine4jh</tspan></text>
+      <text x="0" y="84" class="body line l4"><tspan class="red">[SYS]</tspan><tspan class="white"> role:</tspan> <tspan class="cyan">FULL STACK DEVELOPER</tspan></text>
+      <text x="0" y="112" class="body line l5"><tspan class="red">[SYS]</tspan><tspan class="white"> education:</tspan> <tspan class="white">COMPUTER SCIENCE</tspan></text>
+      <text x="0" y="140" class="body line l6"><tspan class="red">[SYS]</tspan><tspan class="white"> stack:</tspan> <tspan class="yellow">Laravel</tspan><tspan class="white"> / </tspan><tspan class="cyan">React</tspan><tspan class="white"> / </tspan><tspan class="cyan">Next.js</tspan><tspan class="white"> / SQL</tspan></text>
+      <text x="0" y="168" class="body line l7"><tspan class="red">[SYS]</tspan><tspan class="white"> mission:</tspan> <tspan class="white">BUILDING. LEARNING. IMPORVING.</tspan></text>
+      <text x="0" y="196" class="body line l9"><tspan class="red">[SYS]</tspan><tspan class="white"> collaboration:</tspan> <tspan class="white">open to open source projects</tspan></text>
+      <text x="0" y="224" class="body line l10"><tspan class="red">[SYS]</tspan><tspan class="white"> contact:</tspan> <tspan class="cyan">amine4jh@gmail.com</tspan></text>
+      <text x="0" y="252" class="yellow body line l11">&gt; status: SYSTEM ONLINE <tspan class="cursor">_</tspan></text>
+    </g>
+
+    <!-- right status block -->
+    <g transform="translate(738 152)">
+      <rect x="0" y="0" width="196" height="156" rx="12" fill="#0D1621" stroke="#233345" stroke-width="1.2"/>
+      <text x="18" y="24" class="ui small yellow">PROFILE STATUS</text>
+      <rect x="18" y="34" width="160" height="1.5" fill="url(#lineGrad)"/>
+      <text x="18" y="62" class="tiny muted ui">STATE</text>
+      <text x="18" y="80" class="yellow ui" style="font-size:16px;font-weight:700;">BUILDING</text>
+      <text x="18" y="108" class="tiny muted ui">SYNC</text>
+      <text x="18" y="126" class="red ui" style="font-size:16px;font-weight:700;">OPEN SOURCE READY</text>
+    </g>
+
+    <!-- glitch header echo -->
+    <g transform="translate(730 96)">
+      <g class="g1"><text x="0" y="0" class="yellow" style="font-size:28px;font-weight:800;letter-spacing:2px;opacity:.92;">A4JH</text></g>
+      <g class="g2"><text x="0" y="0" class="cyan" style="font-size:28px;font-weight:800;letter-spacing:2px;opacity:.45;">A4JH</text></g>
+      <text x="0" y="0" class="red" style="font-size:28px;font-weight:800;letter-spacing:2px;opacity:.25;">A4JH</text>
+    </g>
+
+    <!-- red glitch noise -->
+    <g class="warn" opacity="0.5">
+      <rect x="782" y="126" width="102" height="2" fill="#DF2D3C"/>
+      <rect x="798" y="136" width="64" height="1.6" fill="#DF2D3C"/>
+      <rect x="810" y="146" width="44" height="1.6" fill="#DF2D3C"/>
+    </g>
+  </g>
+</svg>
