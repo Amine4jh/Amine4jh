@@ -47,8 +47,15 @@
   Stats
 </h3>
 
-[![GitHub Activity](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Amine4jh&theme=2077)](https://github.com/Amine4jh)
-[![Language Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Amine4jh&theme=2077)](https://github.com/Amine4jh)
+<div align="center">
+  <a href="https://github.com/Amine4jh">
+    <img width="64%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Amine4jh&theme=2077" alt="GitHub Activity"/>
+  </a>
+  <a href="https://github.com/Amine4jh">
+    <img width="33%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Amine4jh&theme=2077" alt="Top Languages"/>
+  </a>
+</div>
+
 
 <img src="devider.svg" width="100%" alt="Sandevistan divider" />
 
