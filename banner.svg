@@ -84,11 +84,11 @@
       <text class="shift2" x="958" y="64" fill="#00efff">\</text>
     </g>
     <!-- high-contrast centered title + chromatic glitches -->
-    <g class="ghostC"><text class="title" x="595" y="166" fill="#00efff">Amine4jh</text></g>
-    <g class="ghostR"><text class="title" x="605" y="166" fill="#ff3650">Amine4jh</text></g>
-    <text class="title" x="600" y="166" fill="#f8ef3b" stroke="#0b1116" stroke-width="1.5" paint-order="stroke">Amine4jh</text>
-    <g clip-path="url(#slice1)"><g class="sliceA"><text class="title" x="600" y="166" fill="#ff3650">Amine4jh</text></g></g>
-    <g clip-path="url(#slice2)"><g class="sliceB"><text class="title" x="600" y="166" fill="#00efff">Amine4jh</text></g></g>
+    <g class="ghostC"><text class="title" x="595" y="166" fill="#00efff">Amine Ajaha</text></g>
+    <g class="ghostR"><text class="title" x="605" y="166" fill="#ff3650">Amine Ajaha</text></g>
+    <text class="title" x="600" y="166" fill="#f8ef3b" stroke="#0b1116" stroke-width="1.5" paint-order="stroke">Amine Ajaha</text>
+    <g clip-path="url(#slice1)"><g class="sliceA"><text class="title" x="600" y="166" fill="#ff3650">Amine Ajaha</text></g></g>
+    <g clip-path="url(#slice2)"><g class="sliceB"><text class="title" x="600" y="166" fill="#00efff">Amine Ajaha</text></g></g>
     <!-- compact separator + user-requested stack -->
     <path d="M356 203H844" stroke="#f9ee39" stroke-width="2" stroke-opacity=".7"/>
     <path d="M344 203h7m498 0h7" stroke="#ff3650" stroke-width="4"/>
